@@ -1,6 +1,7 @@
+
 body{
-    background-color: rgba(224, 108, 0, 0.87);
-    font-family:sans-serif;
+  background-color: rgba(224, 108, 0, 0.87);
+  font-family:sans-serif;
 }
 *{
     padding: 0;
@@ -358,4 +359,5 @@ border-radius: 100%;
   display: table;
   clear: both;
 }
+
 }
