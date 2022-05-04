@@ -1,3 +1,5 @@
+@import "utilities/variables";
+
 body{
     background-color: rgba(224, 108, 0, 0.87);
     font-family:sans-serif;
@@ -8,7 +10,16 @@ body{
       box-sizing: border-box;
   
     }
-    
+
+    @mixin sizes($w, $h){
+      height: $h;
+      width: $w;
+  }
+  
+  .card {
+      @include sizes(500px, 500px);
+      background-color: rgb(104, 98, 180);
+  }
     p {
       text-align: justify;
       margin-bottom: 20px;
@@ -26,7 +37,7 @@ body{
       width: 80%;
       margin-left: 10%;
       float: left;
-      background-color:  rgb(7, 4, 0);
+      background-color: #ff7b00;
       margin-top: 5px;
     }
     
